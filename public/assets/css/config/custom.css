@@ -1,0 +1,43 @@
+/* 
+CSS untuk custom yg bersifat general
+*/
+.logo-portal {
+    width: 80px;
+}
+
+.img-auth {
+    width: 100%;
+}
+
+.password-alert {
+    display: none;
+}
+
+.auth-logo img {
+    width: 100px;
+}
+
+#login-image {
+    background-image: url('/assets/images/auth/login.png');
+}
+
+.logo-dark .logo-lg img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.logo-dark .logo-sm img {
+    margin-top: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#outlet-choice {
+    visibility: hidden;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

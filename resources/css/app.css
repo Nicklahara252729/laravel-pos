@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropify-render img {
+  @apply mx-auto;
+}
+
+.dim {
+  @apply brightness-50;
+}
+
+.swal-overlay {
+  background-color: rgba(1, 1, 1, 0.75);
+  backdrop-filter: blur(4px);
+}
+
+.daterangepicker .ranges ul{
+  padding: 10px !important;
+}
+
+.daterangepicker .ranges li{
+  margin: 3px 0 !important;
+  border-radius: 5px 0 0 5px;
+}
+
+.daterangepicker td.active{
+  background-color: #2563EB !important;
+}
+
+.daterangepicker .ranges li.active{
+  color: #5865F2 !important;
+  border-right: 2px solid #5865F2 !important;
+  background-color: #EFF6FF !important;
+}
